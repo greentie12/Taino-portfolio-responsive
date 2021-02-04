@@ -6,17 +6,6 @@
 }
 
 :root {
-  --heading-font-color: #444444;
-  --heading-font-family: "Roboto", sans-serif;
-  --body-font-color: #6e6e6e;
-  --body-font-family: "Open Sans", sans-serif;
-  --light-color: #f5f5f5;
-  --white-color: #ffffff;
-  --light-grey-color: #d1d1d1;
-  --skill-background-color: #62717e;
-  --link-hover-color: #0375b8;
-  --current-color: #675a85;
-  --current-hover-color: #897aaf;
   --contact-hover-color: #e0ab26;
 }
 
@@ -25,9 +14,9 @@ html {
 }
 
 body {
-  font-family: var(--body-font-family);
-  color: var(--body-font-color);
-  background-color: var(--light-color);
+  font-family: "Open Sans", sans-serif;
+  color: #6e6e6e;
+  background-color: #f5f5f5;
 }
 
 h1,
@@ -36,13 +25,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font-family);
-  color: var(--heading-font-color);
+  font-family: "Roboto", sans-serif;
+  color: #444444;
 }
 
 a {
   text-decoration: none;
-  color: var(--body-font-color);
+  color: #6e6e6e;
   text-transform: uppercase;
   font-weight: 800;
   transition: color 0.5s ease-in-out;
@@ -77,13 +66,13 @@ header {
 }
 
 #main-nav ul li {
-  background-color: var(--white-color);
+  background-color: #ffffff;
   padding: 0.5rem 0;
   margin-bottom: 0.3rem;
 }
 
 #main-nav ul li a:hover {
-  color: var(--link-hover-color);
+  color: #0375b8;
 }
 
 /* Navigation styling end */
@@ -101,7 +90,7 @@ header {
 
 /* Porfolio */
 .portfolio_wrap {
-  background-color: var(--white-color);
+  background-color: #ffffff;
 }
 
 .portfolio-grid {
@@ -126,7 +115,7 @@ header {
 
 /* Skills */
 #skills {
-  background-color: var(--skill-background-color);
+  background-color: #62717e;
   padding: 2rem 0;
 }
 
@@ -137,17 +126,17 @@ header {
 .skills-title {
   margin-bottom: 1rem;
   text-align: center;
-  color: var(--white-color);
+  color: #ffffff;
 }
 
 #skills h4 {
   text-transform: uppercase;
-  color: var(--white-color);
+  color: #ffffff;
 }
 
 .skills-bar {
   height: 25px;
-  background-color: var(--light-grey-color);
+  background-color: #d1d1d1;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
@@ -211,7 +200,7 @@ header {
 }
 
 .contact-info a:hover {
-  color: var(--contact-hover-color);
+  color: #e0ab26;
 }
 
 .email a {
@@ -224,7 +213,7 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid var(--body-font-color);
+  border-top: 1px solid #6e6e6e;
 }
 
 footer p,
@@ -233,7 +222,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--link-hover-color);
+  color: #0375b8;
 }
 
 .footer_links {
@@ -255,20 +244,20 @@ footer a:hover {
   #main-nav ul li {
     display: inline;
     margin: 0 1rem;
-    background-color: var(--light-color);
+    background-color: #f5f5f5;
   }
 
   .current {
-    background-color: var(--current-color);
-    color: var(--white-color);
+    background-color: #675a85;
+    color: #ffffff;
     padding: 1rem;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
   }
 
   #main-nav .current:hover {
-    background-color: var(--current-hover-color);
-    color: var(--white-color);
+    background-color: #897aaf;
+    color: #ffffff;
   }
 
   .profile_img {
